@@ -1,0 +1,30 @@
+{
+  "name": "reason-skia",
+  "version": "0.1.0",
+  "description": "Reason bindings for the Skia 2D graphics library",
+  "esy": {
+    "buildEnv": {
+      "esy_skia_install": "#{esy-skia.install}",
+      "OCAMLRUNPARAM": "b"
+    },
+    "build": [
+      "#{'refmterr dune build --verbose --root .'}"
+    ],
+    "install": [
+      "esy-installer"
+    ]
+  },
+  "dependencies": {
+    "@esy-ocaml/reason": "^3.3.7",
+    "@opam/dune": "*",
+    "esy-skia": "*",
+    "refmterr": "^3.1.0"
+  },
+  "devDependencies": {
+    "ocaml": "^4.6.0",
+    "pkgconfig": "prometheansacrifice/yarn-pkg-config#670fb0100d51e47d171c407f6d91c07817435df2"
+  },
+  "resolutions": {
+    "esy-skia": "prometheansacrifice/esy-skia#1ca67ef462cb9afff95a66999aa428dcb18cd2d4"
+  }
+}

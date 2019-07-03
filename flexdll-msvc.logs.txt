@@ -1,0 +1,92 @@
+C:\Users\manas\development\reason-skia>C:\users\manas\development\flexdll\flexlink.exe -chain msvc -stack 33554432 -exe -link "-municode" -o "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\test_skia.exe"   "-LC:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\flexdll" "-LC:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src" "-LC:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml"  "C:\Users\manas\AppData\Local\Temp\camlstartup8a2dc6.o" "C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\std_exit.o" "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\.test_skia.eobjs\native\test_skia.o" "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src\skia.a" "C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\stdlib.a" "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-84a967d7\default\src\skia.lib" "C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\libasmrun.a" -lws2_32 -lversion
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\users\manas\development\flexdll\flexdll_msvc.obj
+Found C:\users\manas\development\flexdll\flexdll_msvc.obj
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\AppData\Local\Temp\camlstartup8a2dc6.o
+Found C:\Users\manas\AppData\Local\Temp\camlstartup8a2dc6.o
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\std_exit.o
+Found C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\std_exit.o
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\.test_skia.eobjs\native\test_skia.o
+Found C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\.test_skia.eobjs\native\test_skia.o
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src\skia.a
+Found C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src\skia.a
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\stdlib.a
+Found C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\stdlib.a
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-84a967d7\default\src\skia.lib
+Found C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-84a967d7\default\src\skia.lib
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\libasmrun.a
+Found C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\libasmrun.a
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with libws2_32
+Found C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/um/x64\ws2_32.lib
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with libversion
+Found C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/um/x64\version.lib
+>>>> C:\users\manas\development\flexdll\flexdll_msvc.obj <<<<<
+is not lib
+>>>> C:\Users\manas\AppData\Local\Temp\camlstartup8a2dc6.o <<<<<
+is not lib
+>>>> C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\std_exit.o <<<<<
+is not lib
+>>>> C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\.test_skia.eobjs\native\test_skia.o <<<<<
+is not lib
+>>>> C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src\skia.a <<<<<
+is lib
+>>>> C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\stdlib.a <<<<<
+is lib
+>>>> C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-84a967d7\default\src\skia.lib <<<<<
+is lib
+>>>> C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\libasmrun.a <<<<<
+is lib
+>>>> C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/um/x64\ws2_32.lib <<<<<
+is lib
+>>>> C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/um/x64\version.lib <<<<<
+is lib
+Found C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/um/x64\uuid.lib
+>>>> C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/um/x64\uuid.lib <<<<<
+is lib
+Found C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\MSVCRT.lib
+>>>> C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\MSVCRT.lib <<<<<
+is lib
+Found C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/um/x64\kernel32.lib
+>>>> C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/um/x64\kernel32.lib <<<<<
+is lib
+Found C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\vcruntime.lib
+>>>> C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\vcruntime.lib <<<<<
+is lib
+Found C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/ucrt/x64\ucrt.lib
+>>>> C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/ucrt/x64\ucrt.lib <<<<<
+is lib
+Found C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\OLDNAMES.lib
+>>>> C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\OLDNAMES.lib <<<<<
+is lib
+Found C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\libcpmt.lib
+>>>> C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\libcpmt.lib <<<<<
+is lib
+Found C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\libconcrt.lib
+>>>> C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\libconcrt.lib <<<<<
+is lib
+Found C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\LIBCMT.lib
+>>>> C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\LIBCMT.lib <<<<<
+is lib
+Found C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\libvcruntime.lib
+>>>> C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\libvcruntime.lib <<<<<
+is lib
+Found C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/ucrt/x64\libucrt.lib
+>>>> C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/ucrt/x64\libucrt.lib <<<<<
+is lib
+** Cannot resolve symbols for C:\users\manas\development\flexdll\flexdll_msvc.obj:
+ _memcpy
+ _strcmp
+ _strlen
+** Cannot resolve symbols for C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\libasmrun.a(floats.o):
+ __strtod
+Fatal error: exception Failure("Unsupported relocation kind 0004 for __strtod in C:\\Users\\manas\\.esy\\3_\\i\\ocaml-4.6.10-7ba95816\\lib\\ocaml\\libasmrun.a(floats.o)")
+
+C:\Users\manas\development\reason-skia>C:\users\manas\development\flexdll\flexlink.exe -chain msvc -stack 33554432 -exe -link "-municode" -o "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\test_skia.exe"   "-LC:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\flexdll" "-LC:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src" "-LC:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml"  "C:\Users\manas\AppData\Local\Temp\camlstartup8a2dc6.o" "C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\std_exit.o" "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\.test_skia.eobjs\native\test_skia.o" "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src\skia.a" "C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\stdlib.a" "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-84a967d7\default\src\skia.lib" "C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\libasmrun.a" -lws2_32 -lversion
+
+C:\Users\manas\development\reason-skia>
+
+C:\Users\manas\development\reason-skia>C:\users\manas\development\flexdll\flexlink.exe -chain mingw -stack 33554432 -exe -link "-municode" -o "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\test_skia.exe"   "-LC:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\flexdll" "-LC:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src" "-LC:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml"  "C:\Users\manas\AppData\Local\Temp\camlstartup8a2dc6.o" "C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\std_exit.o" "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\.test_skia.eobjs\native\test_skia.o" "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src\skia.a" "C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\stdlib.a" "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-84a967d7\default\src\skia.lib" "C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\libasmrun.a" -lws2_32 -lversion
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+'i686-w64-mingw32-gcc' is not recognized as an internal or external command,
+operable program or batch file.
+Fatal error: exception Failure("Cannot run i686-w64-mingw32-gcc -print-search-dirs")

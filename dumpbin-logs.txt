@@ -1,0 +1,37 @@
+$ dumpbin /symbols _build/default/src/libskia_stubs.lib | grep SkFILEWStream
+2DC 00000000 UNDEF  notype ()    External     | ??0SkFILEWStream@@QEAA@QEBD@Z (public: __cdecl SkFILEWStream::SkFILEWStream(char const * const))
+376 00004410 SECT5  notype ()    External     | caml_SkFILEWStream_make
+377 00004560 SECT5  notype ()    External     | caml_SkFILEWStream_write
+989 0000023C SECTFA notype       Static       | $unwind$caml_SkFILEWStream_make
+98A 000002F4 SECTFB notype       Static       | $pdata$caml_SkFILEWStream_make
+98B 00000244 SECTFA notype       Static       | $unwind$caml_SkFILEWStream_write
+98C 00000300 SECTFB notype       Static       | $pdata$caml_SkFILEWStream_write
+
+
+$ dumpbin /symbols _build/default/src/libskia_stubs.lib | grep SkFILEWStream
+2DC 00000000 UNDEF  notype ()    External     | ??0SkFILEWStream@@QEAA@QEBD@Z (public: __cdecl SkFILEWStream::SkFILEWStream(char const * const))
+376 00004410 SECT5  notype ()    External     | caml_SkFILEWStream_make
+377 00004560 SECT5  notype ()    External     | caml_SkFILEWStream_write
+989 0000023C SECTFA notype       Static       | $unwind$caml_SkFILEWStream_make
+98A 000002F4 SECTFB notype       Static       | $pdata$caml_SkFILEWStream_make
+98B 00000244 SECTFA notype       Static       | $unwind$caml_SkFILEWStream_write
+98C 00000300 SECTFB notype       Static       | $pdata$caml_SkFILEWStream_write
+2A0 00000000 SECT1E notype ()    External     | ??0SkFILEWStream@@QEAA@QEBD@Z (public: __cdecl SkFILEWStream::SkFILEWStream(char const * const))
+2A1 00000000 SECT2E notype ()    External     | ??1SkFILEWStream@@UEAA@XZ (public: virtual __cdecl SkFILEWStream::~SkFILEWStream(void))
+2A2 00000000 SECTFE notype ()    External     | ?write@SkFILEWStream@@UEAA_NPEBX_K@Z (public: virtual bool __cdecl SkFILEWStream::write(void const *,unsigned __int64))
+2A3 00000000 SECT80 notype ()    External     | ?flush@SkFILEWStream@@UEAAXXZ (public: virtual void __cdecl SkFILEWStream::flush(void))
+2A4 00000000 SECT84 notype ()    External     | ?fsync@SkFILEWStream@@QEAAXXZ (public: void __cdecl SkFILEWStream::fsync(void))
+2A5 00000000 SECT74 notype ()    External     | ?bytesWritten@SkFILEWStream@@UEBA_KXZ (public: virtual unsigned __int64 __cdecl SkFILEWStream::bytesWritten(void)const )
+2A6 00000000 SECT44 notype ()    External     | ??_GSkFILEWStream@@UEAAPEAXI@Z (public: virtual void * __cdecl SkFILEWStream::`scalar deleting destructor'(unsigned int))
+2A7 00000000 UNDEF  notype ()    WeakExternal | ??_ESkFILEWStream@@UEAAPEAXI@Z (public: virtual void * __cdecl SkFILEWStream::`vector deleting destructor'(unsigned int))
+4BB 00000000 SECT18E notype       Static      | $unwind$??0SkFILEWStream@@QEAA@QEBD@Z
+4BE 00000000 SECT18F notype       Static      | $pdata$??0SkFILEWStream@@QEAA@QEBD@Z
+4C1 00000000 SECT190 notype       Static      | $unwind$??1SkFILEWStream@@UEAA@XZ
+4C4 00000000 SECT191 notype       Static      | $pdata$??1SkFILEWStream@@UEAA@XZ
+4C7 00000000 SECT192 notype       Static      | $unwind$?write@SkFILEWStream@@UEAA_NPEBX_K@Z
+4CA 00000000 SECT193 notype       Static      | $pdata$?write@SkFILEWStream@@UEAA_NPEBX_K@Z
+4CD 00000000 SECT194 notype       Static      | $unwind$?fsync@SkFILEWStream@@QEAAXXZ
+4D0 00000000 SECT195 notype       Static      | $pdata$?fsync@SkFILEWStream@@QEAAXXZ
+4D3 00000000 SECT196 notype       Static      | $unwind$??_GSkFILEWStream@@UEAAPEAXI@Z
+4D6 00000000 SECT197 notype       Static      | $pdata$??_GSkFILEWStream@@UEAAPEAXI@Z
+6A2 00000000 SECT230 notype       External    | ??_7SkFILEWStream@@6B@ (const SkFILEWStream::`vftable')

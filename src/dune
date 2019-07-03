@@ -1,0 +1,61 @@
+(ignored_subdirs (skia))
+
+;; (library
+ 
+;;     (name skia)
+;;     (public_name skia)
+;;     (no_dynlink)
+;;     (modes native)
+;;     (ocamlopt_flags -verbose -cclib (:include opt_flags.sexp)))
+
+;; (rule
+;;     (targets cxx_flags.sexp c_library_flags.sexp)
+;;     (deps (:discover config/discover.exe))
+;;     (action (run %{discover})))
+
+;; (library 
+;;     (name skia)
+;;     (public_name skia)
+;;     (self_build_stubs_archive (skia))
+;;     (ocamlopt_flags -verbose -dstartup))
+
+;; ;; (rule
+;; ;;  (deps (source_tree skia) (:discover config/discover.exe))
+;; ;;  (targets opt_flags.sexp)
+;; ;;  (action (progn
+;; ;;            (chdir skia (run make))
+;; ;;            (run cp skia/skia.lib skia.lib)
+;; ;;            (run %{discover}) 
+;; ;;           ))
+;; ;;  )
+
+;; (rule
+;;  (deps (source_tree skia))
+;;  (targets libskia_stubs.lib dllskia_stubs.dll)
+;;  (action (progn
+;;            (chdir skia (run make))
+;;            (run cp skia/libskia_stubs.lib libskia_stubs.lib)
+;;            (run cp skia/dllskia_stubs.dll dllskia_stubs.dll) 
+;;           ))         
+;;  )
+
+
+
+
+
+
+
+
+    
+(library
+    (name skia)
+    (public_name skia)
+    (c_names skia)
+    (c_flags (:include cxx_flags.sexp))
+    (c_library_flags (:include c_library_flags.sexp))
+    (ocamlopt_flags -verbose))
+
+(rule
+    (targets cxx_flags.sexp c_library_flags.sexp)
+    (deps (:discover config/discover.exe))
+    (action (run %{discover})))

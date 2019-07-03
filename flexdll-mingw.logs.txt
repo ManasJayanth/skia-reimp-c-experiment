@@ -1,0 +1,145 @@
+C:\Users\manas\development\reason-skia>C:\users\manas\development\flexdll\flexlink.exe -chain mingw64 -stack 33554432 -exe -link "-municode" -o "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\test_skia.exe"   "-LC:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\flexdll" "-LC:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src" "-LC:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml"  "C:\Users\manas\AppData\Local\Temp\camlstartup8a2dc6.o" "C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\std_exit.o" "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\.test_skia.eobjs\native\test_skia.o" "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src\skia.a" "C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\stdlib.a" "C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-84a967d7\default\src\skia.lib" "C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\libasmrun.a" -lws2_32 -lversion
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with flexdll_mingw64.o
+Found C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\flexdll\flexdll_mingw64.o
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\AppData\Local\Temp\camlstartup8a2dc6.o
+Found C:\Users\manas\AppData\Local\Temp\camlstartup8a2dc6.o
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\std_exit.o
+Found C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\std_exit.o
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\.test_skia.eobjs\native\test_skia.o
+Found C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\.test_skia.eobjs\native\test_skia.o
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src\skia.a
+Found C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src\skia.a
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\stdlib.a
+Found C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\stdlib.a
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-84a967d7\default\src\skia.lib
+Found C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-84a967d7\default\src\skia.lib
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\libasmrun.a
+Found C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\libasmrun.a
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with libws2_32
+Found C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libws2_32.a
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with libversion
+Found C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libversion.a
+>>>> C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\flexdll\flexdll_mingw64.o <<<<<
+is not lib
+>>>> C:\Users\manas\AppData\Local\Temp\camlstartup8a2dc6.o <<<<<
+is not lib
+>>>> C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\std_exit.o <<<<<
+is not lib
+>>>> C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\bin_native\.test_skia.eobjs\native\test_skia.o <<<<<
+is not lib
+>>>> C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-2b515144\default\src\skia.a <<<<<
+is lib
+>>>> C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\stdlib.a <<<<<
+is lib
+>>>> C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-84a967d7\default\src\skia.lib <<<<<
+is lib
+>>>> C:\Users\manas\.esy\3_\i\ocaml-4.6.10-7ba95816\lib\ocaml\libasmrun.a <<<<<
+is lib
+>>>> C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libws2_32.a <<<<<
+is lib
+>>>> C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libversion.a <<<<<
+is lib
+Found C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\libcpmt.lib
+>>>> C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\libcpmt.lib <<<<<
+is lib
+Found C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/um/x64\uuid.lib
+>>>> C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/um/x64\uuid.lib <<<<<
+is lib
+Found C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\libconcrt.lib
+>>>> C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\libconcrt.lib <<<<<
+is lib
+Found C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\LIBCMT.lib
+>>>> C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\LIBCMT.lib <<<<<
+is lib
+Found C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/um/x64\kernel32.lib
+>>>> C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/um/x64\kernel32.lib <<<<<
+is lib
+Found C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\libvcruntime.lib
+>>>> C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\libvcruntime.lib <<<<<
+is lib
+Found C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/ucrt/x64\libucrt.lib
+>>>> C:/Program Files (x86)/Windows Kits/10/Lib/10.0.17134.0/ucrt/x64\libucrt.lib <<<<<
+is lib
+Found C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\OLDNAMES.lib
+>>>> C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64\OLDNAMES.lib <<<<<
+is lib
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with crt2.o
+Found C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/crt2.o
+>>>> C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/crt2.o <<<<<
+is not lib
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with libmingw32
+Found C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libmingw32.a
+>>>> C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libmingw32.a <<<<<
+is lib
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with libgcc
+Found C:/cygwin/lib/gcc/x86_64-w64-mingw32/7.4.0/libgcc.a
+>>>> C:/cygwin/lib/gcc/x86_64-w64-mingw32/7.4.0/libgcc.a <<<<<
+is lib
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with libmoldname
+Found C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libmoldname.a
+>>>> C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libmoldname.a <<<<<
+is lib
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with libmingwex
+Found C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libmingwex.a
+>>>> C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libmingwex.a <<<<<
+is lib
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with libmsvcrt
+Found C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libmsvcrt.a
+>>>> C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libmsvcrt.a <<<<<
+is lib
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with libuser32
+Found C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libuser32.a
+>>>> C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libuser32.a <<<<<
+is lib
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with libkernel32
+Found C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libkernel32.a
+>>>> C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libkernel32.a <<<<<
+is lib
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with libadvapi32
+Found C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libadvapi32.a
+>>>> C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libadvapi32.a <<<<<
+is lib
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; No luck with libshell32
+Found C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libshell32.a
+>>>> C:/cygwin/usr/x86_64-w64-mingw32/sys-root/mingw/lib/libshell32.a <<<<<
+is lib
+** Cannot resolve symbols for C:\Users\manas\development\reason-skia\_esy\default\store\b\reason_skia-84a967d7\default\src\skia.lib(skia.obj):
+ ??0SkFILEWStream@@QEAA@QEBD@Z
+ ??0SkFont@@QEAA@V?$sk_sp@VSkTypeface@@@@MMM@Z
+ ??0SkPaint@@QEAA@XZ
+ ??0SkSurfaceProps@@QEAA@IW4SkPixelGeometry@@@Z
+ ??1SkData@@AEAA@XZ
+ ??1SkTextBlob@@AEAA@XZ
+ ??3SkData@@CAXPEAX@Z
+ ??3SkTextBlob@@CAXPEAX@Z
+ ?MakeBlur@SkMaskFilter@@SA?AV?$sk_sp@VSkMaskFilter@@@@W4SkBlurStyle@@M_N@Z
+ ?MakeDefault@SkTypeface@@SA?AV?$sk_sp@VSkTypeface@@@@XZ
+ ?MakeFromText@SkTextBlob@@SA?AV?$sk_sp@VSkTextBlob@@@@PEBX_KAEBVSkFont@@W4SkTextEncoding@@@Z
+ ?MakeGL@GrContext@@SA?AV?$sk_sp@VGrContext@@@@V?$sk_sp@$$CBUGrGLInterface@@@@@Z
+ ?MakeRaster@SkSurface@@SA?AV?$sk_sp@VSkSurface@@@@AEBUSkImageInfo@@_KPEBVSkSurfaceProps@@@Z
+ ?MakeRenderTarget@SkSurface@@SA?AV?$sk_sp@VSkSurface@@@@PEAVGrContext@@W4SkBudgeted@@AEBUSkImageInfo@@HW4GrSurfaceOrigin@@PEBVSkSurfaceProps@@_N@Z
+ ?SkDebugf@@YAXQEBDZZ
+ ?drawPaint@SkCanvas@@QEAAXAEBVSkPaint@@@Z
+ ?drawRRect@SkCanvas@@QEAAXAEBVSkRRect@@AEBVSkPaint@@@Z
+ ?drawRect@SkCanvas@@QEAAXAEBUSkRect@@AEBVSkPaint@@@Z
+ ?drawTextBlob@SkCanvas@@QEAAXPEBVSkTextBlob@@MMAEBVSkPaint@@@Z
+ ?encodeToData@SkImage@@QEBA?AV?$sk_sp@VSkData@@@@XZ
+ ?getCanvas@SkSurface@@QEAAPEAVSkCanvas@@XZ
+ ?initializeRect@SkRRect@@AEAA_NAEBUSkRect@@@Z
+ ?isValid@SkRRect@@QEBA_NXZ
+ ?makeImageSnapshot@SkSurface@@QEAA?AV?$sk_sp@VSkImage@@@@XZ
+ ?setColor@SkPaint@@QEAAXI@Z
+ ?setEdging@SkFont@@QEAAXW4Edging@1@@Z
+ ?setMaskFilter@SkPaint@@QEAAXV?$sk_sp@VSkMaskFilter@@@@@Z
+ ?setRectRadii@SkRRect@@QEAAXAEBUSkRect@@QEBUSkPoint@@@Z
+ ?setRectXY@SkRRect@@QEAAXAEBUSkRect@@MM@Z
+ ?setStrokeCap@SkPaint@@QEAAXW4Cap@1@@Z
+ ?setStrokeJoin@SkPaint@@QEAAXW4Join@1@@Z
+ ?setStrokeMiter@SkPaint@@QEAAXM@Z
+ ?setStrokeWidth@SkPaint@@QEAAXM@Z
+ ?setStyle@SkPaint@@QEAAXW4Style@1@@Z
+ ?setSubpixel@SkFont@@QEAAX_N@Z
+ ?sk_abort_no_print@@YAXXZ
+ ?toSkColor@?$SkRGBA4f@$02@@QEBAIXZ
+ 
